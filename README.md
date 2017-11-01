@@ -70,11 +70,6 @@
 
 ![](http://i.imgur.com/LAOHbJA.gif=300x)
 
-### [examples/components/PhotoView](https://github.com/leecade/react-native-swiper/blob/master/examples/components/PhotoView)
-
-![](http://i.imgur.com/GkIRzjO.gif=300x)
-
-> with [react-native-photo-view](https://github.com/alwx/react-native-photo-view)
 
 ## Getting Started
 
@@ -103,7 +98,7 @@ $ npm i react-native-swiper --save
 - Install `react-native` first
 
 ```bash
-$ npm i react-native -g
+$ npm i react-native-cli -g
 ```
 
 - Initialization of a react-native project
@@ -185,6 +180,7 @@ AppRegistry.registerComponent('myproject', () => swiper);
 | index | 0 | `number` | Index number of initial slide. |
 | showsButtons | false | `bool` | Set to `true` make control buttons visible. |
 | autoplay | false | `bool` | Set to `true` enable auto play mode. |
+| onIndexChanged | (index) => null | `func` | Called with the new index when the user swiped |
 
 #### Custom basic style & content
 
